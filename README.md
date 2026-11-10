@@ -5,6 +5,21 @@
 > *"This coil gets hot and I don't know why."*
 > Agent: *"Show me how it's wired."* → the camera opens on your iPhone → you shoot → the agent sees the photo, in the same conversation.
 
+![Clicking 📱 arms the iPhone: "Take a photo with your iPhone"](docs/take-a-photo.png)
+
+## Why this exists
+
+You have your phone in your hand and want to show Claude, Codex, Gemini, Copilot or Antigravity something on your desk: a book page, a circuit, a coil, an error on another screen. Until now that meant taking the photo, emailing or iMessaging it to yourself, finding it on the Mac, and dragging it into the chat. Every single time.
+
+Now there are two much shorter paths:
+
+1. **Click the 📱 icon in the menu bar.** It immediately arms the iPhone ("Take a photo with your iPhone"). Take the photo and tap **Use Photo**, and a thumbnail appears under the icon. Drag it anywhere: Claude, Codex, Gemini, Mail, Terminal. Every shot is also kept in `~/Pictures/iPhone-Latest/`.
+2. **Just tell your agent "take a photo".** Through the MCP tool, the agent arms the iPhone itself. You shoot, tap **Use Photo**, and the photo goes **straight into the chat**. No dragging, no detour through Messages, and the conversation carries on with its context intact. It feels like magic if you've spent years iMessaging photos to yourself.
+
+It fits naturally if your iPhone is already plugged into the laptop for **USB tethering**: one cable gives the laptop internet and charges the phone. Now the same phone is also the agent's eyes. The photos travel over Continuity Camera, not the cable, so it works unplugged too.
+
+## What's in the box
+
 Three pieces, all Apple-native with no dependencies:
 
 | Piece | What it does |
